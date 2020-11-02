@@ -8,6 +8,12 @@
                 <div class="card-header">{{ __('User Login') }}</div>
 
                 <div class="card-body">
+                    <div class="mb-2">
+                        <a href="{{route('login.facebook')}}" target="_blank" class="btn btn-primary btn-flat btn-block"><i class="ti-facebook"></i>Sign in with facebook</a>
+                        <a href="{{route('login.google')}}" class="btn btn-danger btn-flat btn-block"><i class="ti-twitter"></i>Sign in with Google</a>
+                        <a href="{{route('login.github')}}" class="btn btn-success btn-flat btn-block"><i class="ti-twitter"></i>Sign in with Github</a>
+                    </div>
+
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
@@ -54,16 +60,6 @@
                             </div>
                         </div>                        
                     </form>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <a href="{{route('register')}}" target="_blank" class="btn btn-success btn-flat btn-block">Register Account</a>
-                        <a href="{{route('login.facebook')}}" target="_blank" class="btn btn-primary btn-flat btn-block"><i class="ti-facebook"></i>Sign in with facebook</a>
-                    </div>
-                    <div class="col-sm-6">
-                        <a href="{{route('login.github')}}" class="btn btn-success btn-flat btn-block"><i class="ti-twitter"></i>Sign in with Github</a>
-                        <a href="{{route('login.google')}}" class="btn btn-danger btn-flat btn-block"><i class="ti-twitter"></i>Sign in with Google</a>
-                    </div>
                 </div>
             </div>
             

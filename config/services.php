@@ -44,9 +44,9 @@ return [
     ],
 
     'google' => [
-        'client_id' => '645931025159-s13d4v4lprsb25knqoa042h5b3o50i4a.apps.googleusercontent.com',
-        'client_secret' => 'pRUyYNDLL0HdLKLeYh4t2wdN',
-        'redirect' => 'https://socialite-laravel.test/google/callback',
+        'client_id' => '847620353260-38r319meqsnje7aqe458sqop4c4auf8t.apps.googleusercontent.com',
+        'client_secret' => '5RXJOxU154SgQqlYuyzBjljH',
+        'redirect' => 'http://localhost/socialite-laravel/google/callback',
     ],
 
 ];
